@@ -8,3 +8,4 @@
 // ** Show a history of calculations
 // ** Create a memory add and memory clear functionality.
 // ** Implement as many advanced calculator features as you have time for (eg. sin, cosin, power etc...)
+// ************use .eval, save yourself

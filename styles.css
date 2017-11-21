@@ -54,7 +54,11 @@ Grid
 ==========================
 */
 
-
+.container_main {
+  width: 50%;
+  border: 2px solid white;
+  display: inline-block;
+}
 
 /*
 ============================
@@ -92,11 +96,25 @@ body {
 	background: #000;
 	color: #f1f1f1;
   text-align: center;
-	font: 300 16px/22px "Oswald", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 300 28px/32px "Oswald", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 p {
   font-size: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.output_area {
+  border: 2px solid white;
+}
+
+/*
+=====================
+buttons
+=====================
+*/
+
+button {
+  margin-bottom: 15px;
 }
