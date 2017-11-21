@@ -8,35 +8,38 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 </head>
 <body>
-  <h1>JS Calculator! WUUUUT</h1>
+  <h1>JS Calculator!</h1>
   <!-- calculator grid -->
 <div class="container_main">
   <div class="row container_main">
     <div class="col s12 output_area">JS Calculator</div>
   </div>
   <div class="row container_main">
-    <div class="col s3"><button class="btn-large">7</button></div>
-    <div class="col s3"><button class="btn-large">8</button></div>
-    <div class="col s3"><button class="btn-large">9</button></div>
-    <div class="col s3"><button class="btn-large">/</button></div>
+    <div class="col s3"><button id="7" class="btn-large">7</button></div>
+    <div class="col s3"><button id="8" class="btn-large">8</button></div>
+    <div class="col s3"><button id="9" class="btn-large">9</button></div>
+    <div class="col s3"><button id="/" class="btn-large">/</button></div>
   </div>
   <div class="row container_main">
-    <div class="col s3"><button class="btn-large">4</button></div>
-    <div class="col s3"><button class="btn-large">5</button></div>
-    <div class="col s3"><button class="btn-large">6</button></div>
-    <div class="col s3"><button class="btn-large">*</button></div>
+    <div class="col s3"><button id="4" class="btn-large">4</button></div>
+    <div class="col s3"><button id="5" class="btn-large">5</button></div>
+    <div class="col s3"><button id="6" class="btn-large">6</button></div>
+    <div class="col s3"><button id="*" class="btn-large">*</button></div>
   </div>
   <div class="row container_main">
-    <div class="col s3"><button class="btn-large">1</button></div>
-    <div class="col s3"><button class="btn-large">2</button></div>
-    <div class="col s3"><button class="btn-large">3</button></div>
-    <div class="col s3"><button class="btn-large">-</button></div>
+    <div class="col s3"><button id="1" class="btn-large">1</button></div>
+    <div class="col s3"><button id="2" class="btn-large">2</button></div>
+    <div class="col s3"><button id="3" class="btn-large">3</button></div>
+    <div class="col s3"><button id="-" class="btn-large">-</button></div>
   </div>
   <div class="row container_main">
-    <div class="col s3"><button class="btn-large">0</button></div>
-    <div class="col s3"><button class="btn-large">.</button></div>
-    <div class="col s3"><button class="btn-large">+</button></div>
-    <div class="col s3"><button class="btn-large">=</button></div>
+    <div class="col s3"><button id="0" class="btn-large">0</button></div>
+    <div class="col s3"><button id="." class="btn-large">.</button></div>
+    <div class="col s3"><button id="+" class="btn-large">+</button></div>
+    <div class="col s3"><button id="eval" class="btn-large">=</button></div>
+  </div>
+  <div class="row container_main">
+    <div class="col s12"><button id="clear" class="btn-large">CLEAR</button></div>
   </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
